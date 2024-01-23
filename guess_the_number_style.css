@@ -66,7 +66,7 @@ body {
     border-radius: 5px;
     border: none;
     height: 45px;
-    width: 25%;
+    width: 250px;
     cursor: text;
     color: rgb(22, 20, 20);
     border: 3px solid rebeccapurple;
@@ -85,4 +85,29 @@ body {
     background-image: linear-gradient(#A1EEBD, #F6F7C4);
     border-radius: 15rem;
     margin-left: -5%;
+}
+
+
+@media only screen and (max-width: 600px){
+    .inputbtn{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 572px){
+    .inputbtn{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 412px){
+    .inputbtn{
+        width: 390px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .inputbtn{
+        width: 200px;
+    }
 }
