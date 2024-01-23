@@ -145,7 +145,8 @@ body{
     .container{
         align-items: center;
         width: 582px;
-    display: list-item;}
+    display: list-item;
+    gap: 5%}
 }
 
 @media only screen and (max-width: 572px){
@@ -163,7 +164,8 @@ body{
         margin-left: 27%;
         align-items: center;
         width: 564px;
-    display: list-item;}
+    display: list-item;
+    gap: 5%;}
 }
 
 @media only screen and (max-width: 412px){
@@ -181,7 +183,8 @@ body{
         margin-left: 25%;
         align-items: center;
         width: 400px;
-    display: list-item;}
+    display: list-item;
+    gap: 5%;}
 }
 
 @media only screen and (max-width: 280px){
@@ -199,7 +202,8 @@ body{
     .container{
         align-items: center;
         width: 270px;
-    display: list-item;}
+    display: list-item;
+    gap: 5%;}
     .guess_the_number, .rock_paper_secissor{
         width: 270px;
     }
