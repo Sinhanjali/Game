@@ -1,24 +1,32 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
-    margin-top: 1%;
+    height: 100vh;
+    width: 100%;
+    min-width: auto;
+    min-height: auto;
+    padding-top: 1%;
     text-align: center;
     color: black;
     background-image: linear-gradient(#756AB6, #E0AED0);
 }
+
 .container{
     margin: auto;
-    margin-top: 3%;
-    margin-bottom: 10%;
-    height: 90%;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    height: 90vh;
     width: 60%;
     display: flex;
+    gap: 2%;
 }
+
 .container .guess_the_number{
-    margin: 5% 5%;
-    height: 70%;
+    padding: 5% 5%;
+    height: 70vh;
     width: 50%;
     border: 3px solid rgb(194, 153, 235);
     cursor: pointer;
@@ -30,12 +38,12 @@ body{
 
 .container .guess_the_number h2{
     margin: auto;
-    margin-top: 1%;
+    padding-top: 1%;
 }
 
 .container .guess_the_number:hover{
-    margin: 3% 3%;
-    height: 65%;
+    padding: 3% 3%;
+    height: 65vh;
     width: 55%;
     border: 3px solid rgb(194, 153, 235);
     cursor: pointer;
@@ -46,8 +54,8 @@ body{
 
 .container .guess_the_number img{
     margin: auto;
-    margin-top: 5%;
-    height: 80%;
+    padding-top: 5%;
+    height: 45vh;
     width: 70%;
     mix-blend-mode: multiply;
 }
@@ -72,8 +80,8 @@ body{
 }
 
 .container .rock_paper_secissor{
-    margin: 5% 5%;
-    height: 70%;
+    padding: 5% 5%;
+    height: 70vh;
     width: 50%;
     border: 3px solid rgb(194, 153, 235);
     cursor: pointer;
@@ -85,21 +93,21 @@ body{
 
 .container .rock_paper_secissor h2{
     margin: auto;
-    margin-top: 1%;
+    padding-top: 1%;
 }
 
 .container .rock_paper_secissor img{
     margin: auto;
-    margin-top: 20%;
-    margin-bottom: 9%;
-    height: 80%;
+    padding-top: 20%;
+    padding-bottom: 9%;
+    height: 45vh;
     width: 70%;
     mix-blend-mode: multiply;
 }
 
 .container .rock_paper_secissor:hover{
-    margin: 3% 3%;
-    height: 65%;
+    padding: 3% 3%;
+    height: 65vh;
     width: 55%;
     border: 3px solid rgb(194, 153, 235);
     cursor: pointer;
@@ -124,4 +132,78 @@ body{
     border: 4px solid rebeccapurple;
     border-radius: 2rem;
     background-image: linear-gradient( #C4B0FF, #8696FE) ;
+}
+
+
+@media only screen and (max-width: 600px){
+    body{
+        align-items: center;
+        justify-content: center;
+        padding: 15%;
+        height: 900vh;
+    }
+    .container{
+        align-items: center;
+        width: 582px;
+    display: list-item;}
+}
+
+@media only screen and (max-width: 572px){
+    body{
+        align-items: center;
+        justify-content: center;
+        padding: 15%;
+        height: 900vh;
+    }
+    h1{
+        
+        margin-left: 30%;
+    }
+    .container{
+        margin-left: 27%;
+        align-items: center;
+        width: 564px;
+    display: list-item;}
+}
+
+@media only screen and (max-width: 412px){
+    body{
+        align-items: center;
+        justify-content: center;
+        padding: 20%;
+        height: 900vh;
+    }
+    h1{
+        
+        margin-left: 25%;
+    }
+    .container{
+        margin-left: 25%;
+        align-items: center;
+        width: 400px;
+    display: list-item;}
+}
+
+@media only screen and (max-width: 280px){
+    body{
+        align-items: center;
+        justify-content: center;
+        padding: 3%;
+        height: 300vh;
+    }
+
+    h1{
+        
+        margin-left: 20%;
+    }
+    .container{
+        align-items: center;
+        width: 270px;
+    display: list-item;}
+    .guess_the_number, .rock_paper_secissor{
+        width: 270px;
+    }
+    #btn1{
+        width: 100px;
+    }
 }
