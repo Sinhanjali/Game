@@ -134,6 +134,60 @@ body{
     background-image: linear-gradient( #C4B0FF, #8696FE) ;
 }
 
+.container .tic_tac_toe{
+    padding: 5% 5%;
+    height: 70vh;
+    width: 50%;
+    border: 3px solid rgb(194, 153, 235);
+    cursor: pointer;
+    border-radius: 1rem;
+    box-shadow: #C7DCA7 0px 22px 70px 4px;
+    background-image: linear-gradient( #A1EEBD, #F6F7C4) ;
+    transition: 1s;
+}
+
+.container .tic_tac_toe h2{
+    margin: auto;
+    padding-top: 1%;
+}
+
+.container .tic_tac_toe img{
+    margin: auto;
+    padding-top: 20%;
+    padding-bottom: 9%;
+    height: 45vh;
+    width: 70%;
+    mix-blend-mode: multiply;
+}
+
+.container .tic_tac_toe:hover{
+    padding: 3% 3%;
+    height: 65vh;
+    width: 55%;
+    border: 3px solid rgb(194, 153, 235);
+    cursor: pointer;
+    border-radius: 1rem;
+    box-shadow: #C7DCA7 0px 22px 70px 4px;
+    background-image: linear-gradient( #FFA1F5, #E26EE5) ;
+}
+
+.container .tic_tac_toe #btn2{
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 50%;
+    border: 3px solid rebeccapurple;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-image: linear-gradient( #A1EEBD, #7BD3EA) ;
+    transition: 1s;
+}
+
+.container .tic_tac_toe #btn3:hover{
+    border: 4px solid rebeccapurple;
+    border-radius: 2rem;
+    background-image: linear-gradient( #C4B0FF, #8696FE) ;
+}
 
 @media only screen and (max-width: 600px){
     body{
