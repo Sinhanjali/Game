@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1{
+    height: 90vmin;
+    width: 50vmin;
+    border: 3px solid rebeccapurple;
+}
+
+#home{ 
+    margin-left: 1vh;
+    margin-top: 1vh;
+    width: 10vh;
+    height: 5vh;
+    cursor: pointer;
+    color: rgb(12, 12, 12);
+    background-image: linear-gradient(#A1EEBD, #F6F7C4);
+    border-radius: 15rem;
+}
+
+.container1 .score_board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    font-size: 5vh;
+    margin-top: 20vh;
+}
+
+#computer_score, #user_score{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#playAgain{
+    margin-left: 13vh;
+    margin-top: 5vh;
+    background-color: rgb(66, 167, 167);
+    padding: 1vh;
+    border-radius: 1rem;
+    font-size: 2rem;
+    display: inline;
+}
+
+.container2{
+    height: 90vmin;
+    width: 60vmin;
+    border: 3px solid rebeccapurple;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    padding: 5vh;
+}
+.box_container{
+    height: 45vmin;
+    width: 45vmin;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rebeccapurple;
+    padding: 2vh;
+}
+
+.box{
+    height: 13vmin;
+    width: 13vmin;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rebeccapurple;
+    border-radius: 1.5rem;
+    font-size: 3rem;
+}
+
+.msg_container{
+    margin-top: 5rem;
+}
+#turn{
+    background-color: aqua;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    display: inline;
+}
+
+.container3{
+    height: 90vmin;
+    width: 50vmin; 
+    border: 3px solid rebeccapurple;
+}
+
+.choices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 10rem;
+}
+
+.choice{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    border: 10px solid rebeccapurple;
+    background-color: white;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: #aff3c8;
+}
+
+#options{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+}
+
+.resetContainer{
+    margin-left: 15vh;
+    margin-top: 5vh;
+}
+
+#reset{
+    background-color: rgb(91, 124, 124);
+    padding: 1vh;
+    border-radius: 1rem;
+    font-size: 2rem;
+    display: inline;
+}

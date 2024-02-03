@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tic_tac_toe.css">
+    <title>TIC TAC TOE</title>
+</head>
+
+<body>
+    <!--<img src="tic_tac_toe.png" alt="tic_tac_toe">-->
+    <div class="container1">
+        <button id="home">
+            <a href="index.html" style="text-decoration: none;">Home</a>
+        </button>
+        <div class="score_board">
+            <div class="score">
+                <p id="user_score">0</p>
+                <p>You</p>
+            </div>
+            <div class="score">
+                <p id="computer_score">0</p>
+                <p>Computer</p>
+            </div>
+        </div>
+        <button id="playAgain">New Game</button>
+    </div>
+    <div class="container2">
+        <h1>TIC TAC TOE</h1>
+        <div class="box_container">
+           <button class="box" id="box1"></button>
+           <button class="box" id="box2"></button>
+           <button class="box" id="box3"></button>
+           <button class="box" id="box4"></button>
+           <button class="box" id="box5"></button>
+           <button class="box" id="box6"></button>
+           <button class="box" id="box7"></button>
+           <button class="box" id="box8"></button>
+           <button class="box" id="box9"></button>
+        </div>
+        <div class="msg_container">
+            <div id="turn">Play Your Move</div>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="choices">
+            <div class="choice" id="circle"><img src="circle.png" alt="circle" id="options"></div>
+            <div class="choice" id="cross"><img src="cross.png" alt="cross"id="options"></div>
+        </div>
+        <div class="resetContainer">
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+
+    <script src="tic_tac_toe.js"></script>
+</body>
+
+</html>
